@@ -20,9 +20,24 @@
 }
 
 #notas-secundarias {
-    width: 700px;
+    width: 660px;
+    padding: 20px;
+    float: left;
+    height: 260px;
+    background-color: darkmagenta;  
 }
 
 #publicidad {
-    width: 220px;
+    width: 210px;
+    padding: 5px;
+    float: right;
+    height: 290;
+    background-color: darkgreen;
+}
+
+#pie {
+    clear: both;
+    height: 150px;
+    background-color: forestgreen;
+    
 }
