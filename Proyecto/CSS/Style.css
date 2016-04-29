@@ -1,0 +1,28 @@
+
+.container {
+    width: 920px;
+    margin: 0 auto;
+}
+
+#encabezado {
+    height: 150px;
+    background-color: darkblue;
+}
+
+#barra-navegacion {
+    height: 50px;
+    background-color: darkred;
+}
+
+#nota-principal {
+    height: 300px;
+    background-color: darkcyan;
+}
+
+#notas-secundarias {
+    width: 700px;
+}
+
+#publicidad {
+    width: 220px;
+}

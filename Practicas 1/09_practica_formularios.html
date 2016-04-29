@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Formularios en HTML</title>
+</head>
+<body>
+	<h1>Formularios en HTML</h1>
+	<h3>Etiqueta y cuadro de texto</h3>
+	<lable>Nombre Completo:</label>
+	<input type="text" name="txtNombre" id="txtNombre">
+
+	<h3>Botones</h3>
+	<button>Saludar</button>
+	<input type="button" value="Saludar con input">
+	<input type="submit" value="saludar con input tipo submit">
+	<button type="submit">Saludar con button y submit</button>
+
+	<h3>Radio Button</h3>
+	<label><input type="radio" name="rbGenero" id="rbMasculino" 
+	checked="checked">Masculino</label>
+	
+	<label><input type="radio" name="rbGenero" id="rbFemenino">Femenino
+	</label>
+	<br>
+	<h3>Checkbox</h3>
+	<label><input type="checkbox" name="chkPiso" id="chkPiso">Piso Firme
+	</label>
+	<br>
+	<label><input type="checkbox" name="chkLavadora" id="chkLavadora">Lavadora
+	</label>
+	<br>
+	<label><input type="checkbox" name="chkDvd" id="chkDvd">DVD</label>
+
+	<h3>Select o lista desplegable(Listbox)</h3>
+	<select name="Municipio" id="Municipio">
+		<option value="0" Selected>Selecciona Municipio</option>
+		<optgroup label="Sinaloa">
+			<option value="1">Ahome</option>
+			<option value="6">Culiacan</option>
+			<option value="11">Guasave</option>
+		</optgroup>
+		<optgroup label="Sonora">
+			<option value="1">Hermosillo</option>
+			<option value="2">Obregon</option>
+		</optgroup>
+	</select>
+
+	<h3>Fieldset(Groupbox)</h3>
+	<fieldset>
+		<legend>Titulo del fieldset</legend>
+		<input type="text" placeholder="Twitter">
+		<input type="text" placeholder="Facebook">
+		<button>Validar</button>
+	</fieldset>
+</body>
+</html>

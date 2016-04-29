@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Tablas en HTML</title>
+</head>
+<body>
+	<h1>Tabla en HTML</h1>
+	<table border="1" cellpadding="0" cellspacing="0">
+		<thead>
+			<tr>
+				<th width="100">Grupo</th>
+				<th width="250">Especialidad</th>
+			</tr>
+		</thead>
+		<tbody align="center">
+			<tr>
+				<td>4AM-PR</td>
+				<td>PROGRAMACION</td>
+			</tr>
+			<tr>
+				<td>4AV-PR</td>
+				<td>PROGRAMACION</td>
+			</tr
+			<tr>
+				<td>4AM-CT</td>
+				<td>CONTABILIDAD</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<th>3</th>
+				<th>2</th>
+			</tr>
+		</tfoot>
+	</table>
+	<hr>
+<!-- Ejemplo de tabla con union de celdas -->
+	<table border="1" cellpadding="0" cellspacing="0">
+		<thead>
+			<tr>
+				<th rowspan="2" width="200">ALUMNOS</th>
+				<th colspan="2" width="250">PROGRAMACION</th>
+			</tr>
+			<tr>
+				<th>4AM-PR</th>
+				<th>4AV-PR</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>MUJERES</td>
+				<td align="center">12</td>
+				<td align="center">10</td>
+			</tr>
+			<tr>
+				<td>HOMBRES</td>
+				<td align="center">10</td>
+				<td align="center">12</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<th align="right">TOTAL</th>
+				<th>22</th>
+				<th>22</th>
+			</tr>
+		</tfoot>
+	</table>
+</body>
+</html>
