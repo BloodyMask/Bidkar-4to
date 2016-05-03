@@ -41,3 +41,25 @@
     background-color: forestgreen;
     
 }
+
+#logo-sep {
+    margin-top: 31px;
+    float: left;
+}
+
+
+
+.block_center {
+    margin: 0 auto;
+}
+
+#titulos {
+    padding-left: 310px;
+}
+#titulos h1 {
+    font-size: 1.5em;
+}
+#titulos * {
+    margin: 0;
+    padding: 0;
+}
