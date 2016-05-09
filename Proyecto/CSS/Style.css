@@ -5,13 +5,55 @@
 }
 
 #encabezado {
-    height: 150px;
-    background-color: darkblue;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
 }
+
+#encabezado figure {
+    margin: 0;
+}
+
+#encabezado #titulos * {
+    margin: 0;
+}
+
+#titulos h1 { font-size: 1.5em}
+#titulos h2 { font-size: 1.2em}
+#titulos h3 { font-size: 0.9em}
+#titulos h4 { font-size: 0.8em}
 
 #barra-navegacion {
     height: 50px;
+    overflow: hidden;
     background-color: darkred;
+}
+
+#barra-navegacion > ul {
+    display: flex;
+    justify-content: center;
+}
+
+#barra-navegacion li {
+    display: block;
+}
+
+#barra-navegacion ul {
+    padding: 0;
+}
+
+#barra-navegacion a {
+    color: gray;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+#barra-navegacion ul ul {
+    display: none;
+}
+
+#barra-navegacion > ul > li:hover {
+    
 }
 
 #nota-principal {
@@ -31,7 +73,7 @@
     width: 210px;
     padding: 5px;
     float: right;
-    height: 290;
+    height: 290px;
     background-color: darkgreen;
 }
 
@@ -41,7 +83,7 @@
     background-color: forestgreen;
     
 }
-
+/*
 #logo-sep {
     margin-top: 31px;
     float: left;
@@ -52,7 +94,7 @@
 .block_center {
     margin: 0 auto;
 }
-
+    
 #titulos {
     padding-left: 310px;
 }
@@ -63,3 +105,4 @@
     margin: 0;
     padding: 0;
 }
+*/
